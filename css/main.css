@@ -41,6 +41,11 @@ body {
     color:white
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
 .footer{
     margin:0;
     padding:0;
