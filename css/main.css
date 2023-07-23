@@ -1,0 +1,60 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url(../img/logo\ solo.jpg);
+    image-rendering: optimizeQuality;
+        
+}
+
+
+.menu {
+    color: white;
+    background-color: rgb(186, 182, 182);
+    list-style-type: none;
+    padding: 1rem;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    
+    
+   
+    
+
+    display:flex;
+
+    flex-direction:table-row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    
+
+}
+
+.menu-item a{
+    text-decoration: none;
+    color:white
+}
+
+.footer{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(186, 182, 182);
+    list-style-type: none;
+    padding: 1rem;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+
+}
+
+
+
+
