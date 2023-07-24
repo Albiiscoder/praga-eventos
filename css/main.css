@@ -5,43 +5,18 @@
     
 }
 
-.logo {
 
-    background-image: url(../img/logo\ solo.jpg);
-    image-rendering: optimizeQuality;
+.logo1 {
+    
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+    
     display: flex;
     justify-content: center;
-        
-}
-
-
-.menu {
-    color: white;
-    background-color: rgb(186, 182, 182);
-    list-style-type: none;
-    padding: 1rem;
-    font-size: 18px;
-    font-style: normal;
-    text-align: center;
+    height: 1000p;
     
-    
-   
-    
-
-    display:flex;
-
-    flex-direction:table-row;
-    flex-wrap: wrap;
-
-    justify-content: space-between;
-
-    
-
-}
-
-.menu-item a{
-    text-decoration: none;
-    color:white
+          
 }
 
 
@@ -66,10 +41,7 @@ p{
     line-height: 1,5;
     text-align: center;
 
-    }
-
-
-
+}
 
 .video{
     display: flex;
