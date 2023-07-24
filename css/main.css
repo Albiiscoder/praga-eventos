@@ -46,7 +46,11 @@
     display: flex;
     justify-content: center;
 }
-    
+
+.eventos{
+    display: flex;
+    justify-content: center;
+}
 
 h1{
     color:#4b4b4b;
@@ -69,6 +73,15 @@ h3 {
     font-size: 50px;
     text-align: center;
     text-decoration:wavy;
+    
+}
+
+h4{
+    color:#4b4b4b;
+    font-size: 50px;
+    text-align: center;
+    text-decoration:wavy;
+
 }
 
 
@@ -77,12 +90,12 @@ p{
     font-size: 15px;
     font-weight: bold;
     color:#4b4b4b;
-}
+    }
 
-
-
-
-
+.video{
+    display: flex;
+    justify-content: center;
+}    
 
 .footer{
     margin:0;
