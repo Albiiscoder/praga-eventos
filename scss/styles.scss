@@ -1,0 +1,64 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+
+.logo1 {
+    
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    height: 1000p;
+    
+          
+}
+
+
+.eventos{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color:#4b4b4b;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    color:#4b4b4b;
+    line-height: 1,5;
+    text-align: center;
+
+}
+
+
+.video{
+    display: flex;
+    justify-content: center;
+}    
+
+.footer{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(186, 182, 182);
+    list-style-type: none;
+    padding: 1rem;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+
+}
