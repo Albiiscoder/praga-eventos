@@ -1,33 +1,21 @@
 .footer{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    background-color: rgb(186, 182, 182);
-    list-style-type: none;
-    padding: 1rem;
-
-.fa-brands{
-    display: flex;
-    justify-content: center;
-
-}
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        color: white;
+        background-color: rgb(186, 182, 182);
+        list-style-type: none;
+        padding: 1rem;
+        font-size: 18px;
+        font-style: normal;
+        text-align: center;
     
-
-
-}
-
-
-$redes: (
-    facebook:blue,
-    instagram:pink,
-    whastapp:rgb(12, 195, 12)
-);
-
-@each $redsocial, $colordered in $redes {
-    .fa-#{$redsocial} {
-        background-color: $colordered;
     }
+
     
 
-}
+    
+
+
+
     

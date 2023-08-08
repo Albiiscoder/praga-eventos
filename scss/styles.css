@@ -118,23 +118,11 @@ h1 .eventos {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
   background-color: rgb(186, 182, 182);
   list-style-type: none;
   padding: 1rem;
-}
-.footer .fa-brands {
-  display: flex;
-  justify-content: center;
-}
-
-.fa-facebook {
-  background-color: blue;
-}
-
-.fa-instagram {
-  background-color: pink;
-}
-
-.fa-whastapp {
-  background-color: rgb(12, 195, 12);
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
