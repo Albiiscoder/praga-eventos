@@ -11,6 +11,30 @@
 .navbar-nav {
   animation: scale-in-hor-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
+
+.nav-link {
+  animation: scale-in-hor-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.nav-item-1 {
+  animation-delay: 1s;
+}
+
+.nav-item-2 {
+  animation-delay: 2s;
+}
+
+.nav-item-3 {
+  animation-delay: 3s;
+}
+
+.nav-item-4 {
+  animation-delay: 4s;
+}
+
+.nav-item-5 {
+  animation-delay: 5s;
+}
 @keyframes scale-in-tl {
   0% {
     transform: scale(0);
@@ -94,11 +118,23 @@ h1 .eventos {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
   background-color: rgb(186, 182, 182);
   list-style-type: none;
   padding: 1rem;
-  font-size: 18px;
-  font-style: normal;
-  text-align: center;
+}
+.footer .fa-brands {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-facebook {
+  background-color: blue;
+}
+
+.fa-instagram {
+  background-color: pink;
+}
+
+.fa-whastapp {
+  background-color: rgb(12, 195, 12);
 }/*# sourceMappingURL=styles.css.map */
