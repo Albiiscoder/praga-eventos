@@ -1,21 +1,21 @@
 .navbar-brand{
-        -webkit-animation: scale-in-tl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-                    animation: scale-in-tl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        -webkit-animation: scale-in-tl 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                    animation: scale-in-tl 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
     
     .navbar-nav{
-         -webkit-animation: scale-in-hor-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-         animation: scale-in-hor-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+         -webkit-animation: scale-in-hor-left 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+         animation: scale-in-hor-left 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
          
     .nav-link {
-            -webkit-animation: scale-in-hor-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: scale-in-hor-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+            -webkit-animation: scale-in-hor-left 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: scale-in-hor-left 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     }
     
     
     @for $nav from 1 through 5 {
-            .nav-item-#{$nav} {
+            .nav-item-#{$nav} {it
                     animation-delay: $nav*1s;
             }
     }  
